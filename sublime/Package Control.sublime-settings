@@ -1,0 +1,25 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"ayu",
+		"BracketHighlighter",
+		"CodeComplice",
+		"Color Highlighter",
+		"ColorPicker",
+		"DocBlockr",
+		"Emmet",
+		"Filter Lines",
+		"HTML-CSS-JS Prettify",
+		"LaTeXTools",
+		"Modific",
+		"OmniMarkupPreviewer",
+		"Package Control",
+		"SublimeTmpl",
+		"Vue Syntax Highlight",
+		"Vuejs Snippets"
+	]
+}
