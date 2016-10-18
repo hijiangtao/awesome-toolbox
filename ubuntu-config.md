@@ -68,6 +68,8 @@ npm install express-generator -g
 npm install -g vue-cli
 ## UglifyJS
 npm install uglify-js -g
+## Webpack
+npm install webpack -g
 ```
 
 ## [Databases]
