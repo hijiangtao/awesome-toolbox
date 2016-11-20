@@ -5,7 +5,9 @@
 	],
 	"installed_packages":
 	[
+		"AutoDocstring",
 		"ayu",
+		"Boxy Theme",
 		"BracketHighlighter",
 		"CodeComplice",
 		"Color Highlighter",
@@ -15,9 +17,13 @@
 		"Filter Lines",
 		"HTML-CSS-JS Prettify",
 		"LaTeXTools",
+		"Material Theme",
 		"Modific",
 		"OmniMarkupPreviewer",
 		"Package Control",
+		"SublimeLinter",
+		"SublimeLinter-annotations",
+		"SublimeLinter-pyflakes",
 		"SublimeTmpl",
 		"Vue Syntax Highlight",
 		"Vuejs Snippets"
