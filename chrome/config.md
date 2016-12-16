@@ -10,3 +10,11 @@
 * `chrome://sessions`: This displays the number of sessions and magic list that are currently running.
 * `chrome://settings`: Settings.
 * `chrome://sync-internals`: This gives information about the chrome sync feature, including the Sync URL used by google, and sync statistics.
+
+# Violentmonkey Plugin
+
+* The script files are in `./Violentmonkey-scripts.zip`
+
+# Adblock Plugin
+
+* The filtering rules are in `./Adblock.log`
