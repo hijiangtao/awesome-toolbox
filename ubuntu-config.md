@@ -72,6 +72,15 @@ npm install uglify-js -g
 npm install webpack -g
 ```
 
+## [Python packages]
+
+```
+# https://api.mongodb.com/python/2.7.2/installation.html
+pip install pymongo
+# https://pypi.python.org/pypi/geopy/1.11.0
+pip install geopy
+```
+
 ## [Databases]
 
 ### MySQL
