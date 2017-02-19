@@ -1,5 +1,9 @@
 # Config Note for Ubuntu
 
+## Ubuntu 16.04
+
+* [Settings after installation](http://www.omgubuntu.co.uk/2016/04/10-things-to-do-after-installing-ubuntu-16-04-lts)
+
 ## [Node Version Manager](https://github.com/creationix/nvm)
 
 * Dependencies: `build-essential` and `libssl-dev`
