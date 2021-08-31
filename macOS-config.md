@@ -19,9 +19,11 @@ homebrew
 brew install --cask iterm2
 
 // vscode
+// 登陆同步配置
 brew install --cask visual-studio-code
 
 // chrome
+// 登陆同步配置
 brew install --cask chrome-remote-desktop-host
 
 // git
