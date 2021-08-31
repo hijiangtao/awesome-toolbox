@@ -1,31 +1,59 @@
-## macOS 配置开发信息
+## macOS
 
-* 下载 chrome, vscode, 网易云音乐
-* [homebrew](https://brew.sh/) 安装
+### 应用
 
-```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
+* Xcode <https://apps.apple.com/us/app/xcode/id497799835?mt=12>
+* 微信
+* 企业微信
+* Notion
 
-* [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) + [iTerm2](https://www.iterm2.com/) + [powerline-fonts](https://github.com/powerline/fonts)
+### 开发环境
 
-```
-oh-my-zsh theme 设定主题 ZSH_THEME="agnoster"
-安装 powerline-fonts 字体
-安装 iTerm 2 以及选定主题 Solarized Dark
-修改透明度
-```
-
-* 安装 sublime + package control
+homebrew
 
 ```
-brew cask install sublime-text
+// homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+// iTerm2
+brew install --cask iterm2
+
+// vscode
+brew install --cask visual-studio-code
+
+// chrome
+brew install --cask chrome-remote-desktop-host
+
+// git
+brew install git
+
+// nvm
+// 需要进一步配置 https://github.com/nvm-sh/nvm
+brew install nvm
+nvm install node
 ```
 
-* 安装 nvm, 安装 node, 修改 npm 源
+终端
 
 ```
-npm config set registry https://registry.npm.taobao.org
+// oh-my-zsh
+// 文档 https://github.com/ohmyzsh/ohmyzsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+// ~/.zshrc 文件修改
+// oh-my-zsh theme 设定主题 ZSH_THEME="agnoster"
+
+// 安装 powerline-fonts 字体
+git clone https://github.com/powerline/fonts.git --depth=1
+cd fonts
+./install.sh
+cd ..
+rm -rf fonts
+
+// iTerm 2 选定主题 Solarized Dark
+// 修改透明度
 ```
 
-* 安装 QQ, Android studio
+### 配置
+
+TBD
