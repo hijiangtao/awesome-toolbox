@@ -33,6 +33,9 @@ brew install git
 // 需要进一步配置 https://github.com/nvm-sh/nvm
 brew install nvm
 nvm install node
+
+// ssh key
+ssh-keygen -t ed25519 -C "hijiangtao@gmail.com"
 ```
 
 终端
