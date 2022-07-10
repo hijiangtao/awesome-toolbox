@@ -4,14 +4,36 @@
 
 * Xcode <https://apps.apple.com/us/app/xcode/id497799835?mt=12>
 * 微信
-* 企业微信
 * Notion
 * WPS
-* Outlook
+* QQ音乐
+* 360压缩大师
+* Telegram
 
 ### 开发环境
 
-homebrew
+终端配置
+
+```
+// oh-my-zsh
+// 文档 https://github.com/ohmyzsh/ohmyzsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+// ~/.zshrc 文件修改
+// oh-my-zsh theme 设定主题 ZSH_THEME="agnoster"
+
+// 安装 powerline-fonts 字体
+git clone https://github.com/powerline/fonts.git --depth=1
+cd fonts
+./install.sh
+cd ..
+rm -rf fonts
+
+// iTerm 2 选定主题 Solarized Dark
+// 修改透明度
+```
+
+homebrew 相关软件安装
 
 ```
 // homebrew
@@ -32,33 +54,15 @@ brew install --cask chrome-remote-desktop-host
 brew install git
 
 // nvm
-// 需要进一步配置 https://github.com/nvm-sh/nvm
+// 需要进一步配置 https://github.com/nvm-sh/nvm , 可直接参考 配置部分操作
 brew install nvm
+
+// 如果文件不存在需要新建
+mkdir ~/.nvm
 nvm install node
 
 // ssh key
 ssh-keygen -t ed25519 -C "hijiangtao@gmail.com"
-```
-
-终端
-
-```
-// oh-my-zsh
-// 文档 https://github.com/ohmyzsh/ohmyzsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-// ~/.zshrc 文件修改
-// oh-my-zsh theme 设定主题 ZSH_THEME="agnoster"
-
-// 安装 powerline-fonts 字体
-git clone https://github.com/powerline/fonts.git --depth=1
-cd fonts
-./install.sh
-cd ..
-rm -rf fonts
-
-// iTerm 2 选定主题 Solarized Dark
-// 修改透明度
 ```
 
 ### 配置
